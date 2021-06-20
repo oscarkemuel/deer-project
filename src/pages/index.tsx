@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import styled from '../styles/pages/index.module.scss';
 
-export default function index() {
+const index: React.FC = () => {
   return (
     <>
       <Head>
@@ -9,5 +9,7 @@ export default function index() {
       </Head>
       <h1 className={styled.title}>Hello world!</h1>
     </>
-  )
-}
+  );
+};
+
+export default index;
