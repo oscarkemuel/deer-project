@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  background-color: var(--background);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  position: fixed;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  img {
+    width: 100px;
+  }
+
+  svg:last-child {
+    font-size: 2rem;
+    cursor: pointer !important;
+    display: none !important;
+
+    @media (max-width: 480px) {
+      display: block !important;
+     }
+  }
+
+  @media (max-width: 980px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 480px) {
+   padding: 20px 0;
+   justify-content: space-around;
+  }
+
+
+}
+
+.navPhone {
+  a {
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  :hover {
+    svg, span{
+      color: var(--red);
+  }
+  }
+}

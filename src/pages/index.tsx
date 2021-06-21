@@ -1,17 +1,15 @@
 import Head from 'next/head';
-import { Button } from '@material-ui/core';
-import styled from '../styles/pages/index.module.scss';
+import Header from '../components/Header';
+import Section1 from '../components/Section1';
 
 const index: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Deercheerup</title>
+        <title>Projeto Deercheerup</title>
       </Head>
-      <h1 className={styled.title}>Hello world!</h1>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
+      <Header />
+      <Section1 />
     </>
   );
 };
