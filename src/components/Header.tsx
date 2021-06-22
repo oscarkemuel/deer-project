@@ -11,6 +11,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { AiFillHome } from 'react-icons/ai';
 import { BsFillHeartFill } from 'react-icons/bs';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Nav from './Nav';
 import styled from '../styles/components/Header.module.scss';
 
@@ -49,44 +50,44 @@ const Header: React.FC = () => {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}>
       <List className={styled.navPhone}>
-        <a href="#home">
+        <AnchorLink href="#home">
           <ListItem button>
             <ListItemIcon>
               <AiFillHome />
             </ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>
-        </a>
+        </AnchorLink>
 
         <Divider />
-        <a href="#teste">
+        <AnchorLink href="#proposito">
           <ListItem button>
             <ListItemIcon>
               <AiFillHome />
             </ListItemIcon>
-            <ListItemText primary="Teste" />
+            <ListItemText primary="Propósito" />
           </ListItem>
-        </a>
+        </AnchorLink>
 
         <Divider />
-        <a href="#teste">
+        <AnchorLink href="#hitoria">
           <ListItem button>
             <ListItemIcon>
               <AiFillHome />
             </ListItemIcon>
-            <ListItemText primary="Teste" />
+            <ListItemText primary="História" />
           </ListItem>
-        </a>
+        </AnchorLink>
 
         <Divider />
-        <a href="#doar">
+        <AnchorLink href="#doar">
           <ListItem button>
             <ListItemIcon>
               <BsFillHeartFill />
             </ListItemIcon>
             <ListItemText primary="Doar" />
           </ListItem>
-        </a>
+        </AnchorLink>
         <Divider />
       </List>
     </div>

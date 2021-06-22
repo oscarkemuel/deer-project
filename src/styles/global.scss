@@ -33,6 +33,7 @@
 
 body {
   background: var(--background);
+  scroll-behavior: smooth;
 }
 
 body, input, textarea, button{

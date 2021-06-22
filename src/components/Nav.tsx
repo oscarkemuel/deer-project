@@ -1,5 +1,6 @@
 import { AiFillHome, AiFillStar, AiFillProject } from 'react-icons/ai';
 import { BsFillHeartFill } from 'react-icons/bs';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from '../styles/components/Nav.module.scss';
 
 const Nav: React.FC = () => {
@@ -7,31 +8,31 @@ const Nav: React.FC = () => {
     <nav className={styled.nav}>
       <ul>
         <li>
-          <a href="#home">
+          <AnchorLink href="#home">
             <AiFillHome />
             <p>Home</p>
-          </a>
+          </AnchorLink>
         </li>
 
         <li>
-          <a href="#proposito">
+          <AnchorLink href="#proposito">
             <AiFillStar />
             <p>Propósito</p>
-          </a>
+          </AnchorLink>
         </li>
 
         <li>
-          <a href="#historia">
+          <AnchorLink href="#historia">
             <AiFillProject />
             <p>Historia</p>
-          </a>
+          </AnchorLink>
         </li>
 
         <li>
-          <a href="#doar">
+          <AnchorLink href="#doar">
             <BsFillHeartFill />
             <p>DOAR</p>
-          </a>
+          </AnchorLink>
         </li>
       </ul>
     </nav>

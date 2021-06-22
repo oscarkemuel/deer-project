@@ -5,7 +5,7 @@ import styled from '../styles/components/Section1.module.scss';
 
 const Section1: React.FC = () => {
   return (
-    <section className={styled.section} id="#home">
+    <section className={styled.section} id="home">
       <Container className={styled.content}>
         <h1 className="title">Que a inclusão seja regra e nunca exceção</h1>
         <Button style={{ marginTop: '1.5rem' }}>
