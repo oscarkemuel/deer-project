@@ -1,3 +1,20 @@
-.title {
-  color: red;
+.iconDonate {
+  position: fixed !important;
+  z-index: 1;
+  top: 90vh;
+  right: 20px;
+
+  a {
+    font-size: 2rem;
+    text-decoration: none;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 915px) {
+    display: none !important;
+  }
 }

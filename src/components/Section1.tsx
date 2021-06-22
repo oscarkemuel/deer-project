@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Button } from '@material-ui/core';
 import { AiFillPlayCircle } from 'react-icons/ai';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from '../styles/components/Section1.module.scss';
 
 const Section1: React.FC = () => {
@@ -18,7 +19,7 @@ const Section1: React.FC = () => {
         </Button>
       </Container>
       <div className={`${styled.link} title`}>
-        <a href="#doar">doe agora</a>
+        <AnchorLink href="#doar">doe agora</AnchorLink>
       </div>
     </section>
   );

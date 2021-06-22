@@ -37,7 +37,7 @@ body {
 }
 
 body, input, textarea, button{
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Open Sans Condensed", "Arial", sans-serif;
 }
 
 button {
@@ -66,4 +66,8 @@ label{
 
 .title {
   font-family: "Amatic SC", "Arial Narrow", sans-serif;
+}
+
+.text {
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
 }

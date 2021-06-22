@@ -12,7 +12,7 @@ const Section2: React.FC = () => {
         <div>
           <FaChild />
           <p className="number">
-            <CountUp end={30} duration={5} prefix="+" />
+            <CountUp end={10} duration={5} prefix="+" />
           </p>
           <p>crianças foram ajudadas a lidar com sua forma de ser</p>
         </div>

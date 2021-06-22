@@ -9,7 +9,7 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { AiFillHome } from 'react-icons/ai';
+import { AiFillHome, AiFillStar, AiFillProject } from 'react-icons/ai';
 import { BsFillHeartFill } from 'react-icons/bs';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Nav from './Nav';
@@ -63,17 +63,17 @@ const Header: React.FC = () => {
         <AnchorLink href="#proposito">
           <ListItem button>
             <ListItemIcon>
-              <AiFillHome />
+              <AiFillStar />
             </ListItemIcon>
             <ListItemText primary="Propósito" />
           </ListItem>
         </AnchorLink>
 
         <Divider />
-        <AnchorLink href="#hitoria">
+        <AnchorLink href="#historia">
           <ListItem button>
             <ListItemIcon>
-              <AiFillHome />
+              <AiFillProject />
             </ListItemIcon>
             <ListItemText primary="História" />
           </ListItem>

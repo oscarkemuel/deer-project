@@ -24,7 +24,7 @@ const Nav: React.FC = () => {
         <li>
           <AnchorLink href="#historia">
             <AiFillProject />
-            <p>Historia</p>
+            <p>Sobre</p>
           </AnchorLink>
         </li>
 
