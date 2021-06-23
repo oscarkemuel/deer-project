@@ -27,7 +27,7 @@ const Section4: React.FC = () => {
             </a>
             , e terá todo o acompanhamento em sua infância, por isso, o
             tratamento possui um valor elevado. Hoje, a principal renda do
-            projeto vem das streams do indealizador do projeto{' '}
+            projeto vem das streams do idealizador do projeto{', '}
             <a
               href="http://twitch.tv/deercheerup"
               target="_blank"

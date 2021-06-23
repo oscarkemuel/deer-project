@@ -75,7 +75,7 @@ const Header: React.FC = () => {
             <ListItemIcon>
               <AiFillProject />
             </ListItemIcon>
-            <ListItemText primary="História" />
+            <ListItemText primary="Sobre" />
           </ListItem>
         </AnchorLink>
 
