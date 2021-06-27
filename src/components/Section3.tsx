@@ -24,7 +24,7 @@ const Section3: React.FC = () => {
             href="https://www.funcionalita.com.br/quais-sao-os-graus-de-classificacao-do-autismo#:~:text=Conforme%20o%20DSM%20V%2C%20os,precisa%20de%20um%20suporte%20substancial."
             target="_blank"
             rel="noopener noreferrer">
-            O que é Austimo?
+            O que é Autismo?
           </a>
         </div>
       </Container>
